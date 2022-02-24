@@ -1,0 +1,223 @@
+IVF data dictionary.
+
+
+
+Patient Age at Treatment: 
+    Text / Patient’s age at treatment, banded as follows: 18-34,35-37,38-39,40-42,43-44,45-50
+
+Total Number of Previous cycles, Both IVF and DI:
+    Number / How many treatment cycles of IVF and DI the patient has previously had
+
+Total Number of Previous treatments, Both IVF and DI at clinic: 
+    Number / How many treatment cycles of IVF and DI the patient has previously had at the clinic associated with this treatment
+
+Total Number of Previous IVF cycles : 
+    Number / How many treatment cycles cycles of IVF the patient has previously had
+
+Total Number of Previous DI cycles: 
+    Number / How many treatment cycles of DI the patient has previously had
+
+Total number of previous pregnancies, Both and DI:
+    Number / How many time the patient has previously been pregnant, Both and DI
+
+Total number of IVF pregnancies:
+    Number / How many times the patient has been pregnant through IVF
+
+Total number of DI pregnancies:
+    Number / How many times the patient has been pregnant through DI
+
+Total number of live births - conceived through IVF or DI:
+    Number / How many live births the patient has had through IVF or DI
+
+Total number of live births - conceived through IVF:
+    Number /How many live births the patient has had through IVF
+
+Total number of live births - conceived through DI:
+    Number / How many live births the patient has had through DI
+
+Type Infertility Female Primary:
+    Bit /1 if the main cause of infertility is due to the patient, 0 otherwise
+
+Type of Infertility – Female Secondary:
+    Bit / 1 if the secondary cause of infertility is due to the patient, 0 otherwise
+
+Type of Infertility – Male Primary:
+    Bit / 1 if the main cause of infertility is due to the partner, 0 otherwise
+
+Type Infertility – Male Secondary:
+    Bit / 1 if the secondary cause of infertility is due to the partner, 0 otherwise
+
+Type of Infertility – Couple Primary:
+    Bit / 1 if the main cause of infertility is due to the patient/partner problem, 0 otherwise
+
+Type of Infertility – Couple Secondary:
+    Bit / 1 if the secondary cause of infertility is due to the patient/partner problem, 0 otherwise
+
+Cause of Infertility – Tubal disease:
+    Bit / 1 if the primary cause of infertility is as detailed, 0 otherwise
+
+Cause of Infertility -  Ovulatory Disorder:
+    Bit / 1 if the primary cause of infertility is as detailed, 0 otherwise
+
+Cause of Infertility – Male Factor:
+    Bit / 1 if the primary cause of infertility is as detailed, 0 otherwise
+
+Cause of Infertility – Patient Unexplained:
+    Bit / 1 if the primary cause of infertility is as detailed, 0 otherwise
+
+Cause of Infertility - Endometriosis:
+    Bit / 1 if the primary cause of infertility is as detailed, 0 otherwise
+
+Main Reason for Producing Embryos Storing Eggs:
+    Text / A comma separated list of the main reason for this cycle which can include: Treatment Now, For Donation, For Storing Eggs, For Research
+
+Stimulation used:
+    Bit / 1 if this was a stimulated cycle, 0 otherwise
+
+Egg Donor Age at Registration:
+    Text / If donor eggs were used, the donor's age at registration banded as follows: <=20,21-25,26-30,31-35
+
+Sperm Donor Age at Registration:
+    Text / If donor sperm was used, the donor's age at registration banded as follows: <=20,21-25,26-30,31-35,36-40,41-45,>45
+
+Donated embryo:
+    Bit / 1 if this cycle used a donated embryo, 0 otherwise
+
+Patient acting as Surrogate:
+    Bit / 1 if the patient was acting as a surrogate in this cycle, 0 otherwise
+
+Type of treatment - IVF or DI:
+    Text / IVF or DI
+
+Specific Treatment Type:
+    Text / A comma separated list of specific treatment types used in this cycle
+
+PGT-M:
+    Bit /1 if this cycle involved the use of pre-implantation genetic testing for monogenic disorders , 0 otherwise
+
+PGT-A:
+    Bit / 1 if this cycle involved the use of pre-implantation genetic testing for aneuploidy , 0 otherwise
+
+Elective Single Embryo Transfer:
+    Bit / 1 if this cycle involved the deliberate use of only one embryo, 0 otherwise
+
+Egg Source:
+    Text / Indicates whether the eggs used in this cycle came from the Patient (P) or a Donor (D)
+
+Sperm From:
+    Text / Indicates whether the sperm used in this cycle came from the Patient (P) or a Donor (D)
+
+Fresh Cycle:
+    Bit / 1 if this cycle used fresh embryos, 0 otherwise
+
+Frozen Cycle:
+    Bit / 1 if this cycle used frozen embryos, 0 otherwise
+
+Eggs Thawed:
+    Number / If this cycle used frozen eggs, the number of eggs thawed
+
+Fresh Eggs Collected:
+    Number /The number of eggs collected in this cycle
+
+Fresh Eggs Stored:
+    Number /The number of eggs collected in this cycle and subsequently frozen
+
+Total Eggs Mixed:
+    Number / The number of eggs mixed with sperm
+
+Total Embryos Created:
+    Number /The total number of embryos created in this cycle
+
+Eggs Micro-injected:
+    Number /The number of eggs that were injected with sperm e.g. By ICSI
+
+Embryos from Eggs Micro-injected:
+    Number / The number of embryos that were created in this cycle using ICSI
+
+Total Embryos Thawed:
+    Number /If this was a frozen cycle, the total number of embryos that were thawed
+
+Embryos Transferred:
+    Number / The number of embryos transferred into the patient in this cycle
+
+Embryos Transferred from Eggs Micro-injected:
+    Number / The number of embryos transferred into the patient in this cycle that were created using ICSI
+
+Embryos stored for use by Patient:
+    Number / The number of embryos that were created in this cycle and then frozen for subsequent use by the patient.
+
+Embryos (from Eggs Micro-injected) Stored for Use ByPatient:
+    Number / The number of embryos that were created in this cycle by injecting sperm and then frozen for subsequent use by the patient.
+
+Date of Embryo Transfer:
+    Number /The number of days between embryo transfer and the first date provided in the series: egg collection date; egg thaw date; egg mix date; embryo thaw date; embryo transfer date
+
+Year of Treatment:
+    Number / The year in which this cycle took place
+
+Live Birth Occurrence:
+    Bit / 1 if there were 1 or more live births as a result of this cycle, 0 otherwise
+
+Number of Live Births:
+    Number / The number of live births as a result of this cycle
+
+Early Outcome:
+    Text /A comma separated list of the results of a patient scan
+
+Number of Foetal Sacs with Foetal Pulsation:
+    Number / If foetal sacs were present in the scan, the number of sacs that evidenced foetal pulsation
+
+1st Foetal Heart – Weeks Gestation:
+    Number / The number of weeks of gestation for this foetal heart: banded for less that 30 weeks or greater than 40 weeks
+
+1st Foetal Heart – Birth Outcome:
+    Text / Comma separated list of the outcome of this pregnancy: Embryo reduction; live birth; miscarriage; still birth; termination
+
+1st Foetal Heart - Birth Weight:
+            Text /Banded birthweight of this child: Less than 1kg; Between 1.5kg and 1.99Kg; Between 1kg and 1.49Kg; Between 2.0kg and 2.49Kg; Between 2.5kg and 2.99Kg; Between 3.0kg and 3.49Kg; Between 3.5kg and 3.99Kg; Between 4.0kg and 4.49Kg; Between 4.5kg and 4.99Kg; Between 5.0kg and 5.49Kg; Between 5.5kg and 5.99Kg; 6kg or greater
+
+1st Foetal Heart – Sex:
+    Text /The sex of the child: Male (M), Female (F)
+
+1st Foetal Heart – Delivery Date:
+    Number / Year the child was delivered
+
+1st Foetal Heart – Birth Congenital Abnormalities:
+    Bit / 1 if a congenital abnormality was recorded, 0 otherwise
+
+2nd Foetal Heart – Weeks Gestation:
+    Number / The number of weeks of gestation for this foetal heart: banded for less than 30 weeks or greater than 40 weeks
+
+2nd Foetal Heart – Birth Outcome:
+    Text / Comma separated list of the outcome of this pregnancy: Embryo reduction; live birth; miscarriage; still birth; termination
+
+2nd Foetal Heart - Birth Weight:
+    Text /Banded birthweight of this child: Less than 1kg; Between 1.5kg and 1.99Kg; Between 1kg and 1.49Kg; Between 2.0kg and 2.49Kg; Between 2.5kg and 2.99Kg; Between 3.0kg and 3.49Kg; Between 3.5kg and 3.99Kg; Between 4.0kg and 4.49Kg; Between 4.5kg and 4.99Kg; Between 5.0kg and 5.49Kg; Between 5.5kg and 5.99Kg; 6kg or greater
+
+2nd Foetal Heart – Sex:
+    Text / The sex of the child: Male (M), Female (F)
+
+2nd Foetal Heart – Delivery Date:
+    Number /Year the child was delivered
+
+2nd Foetal Heart – Birth Congenital Abnormalities:
+    Bit / 1 if a congenital abnormality was recorded, 0 otherwise
+
+3rd Foetal Heart – Weeks Gestation:
+    Number / The number of weeks of gestation for this foetal heart: banded for less than 30 weeks or greater than 40 weeks
+
+3rd Foetal Heart – Birth Outcome:
+    Text / Comma separated list of the outcome of this pregnancy: Embryo reduction; live birth; miscarriage; still birth; termination
+
+3rd Foetal Heart - Birth Weight:
+    Text / Banded birthweight of this child: Less than 1kg; Between 1.5kg and 1.99Kg; Between 1kg and 1.49Kg; Between 2.0kg and 2.49Kg; Between 2.5kg and 2.99Kg; Between 3.0kg and 3.49Kg; Between 3.5kg and 3.99Kg; Between 4.0kg and 4.49Kg; Between 4.5kg and 4.99Kg; Between 5.0kg and 5.49Kg; Between 5.5kg and 5.99Kg; 6kg or greater
+
+3rd Foetal Heart – Sex:
+    Text / The sex of the child: Male (M), Female (F)
+
+3rd Foetal Heart – Delivery Date:
+    Number /Year the child was delivered
+
+3rd Foetal Heart – Birth Congenital Abnormalities:
+    Bit / 1 if a congenital abnormality was recorded, 0 otherwise
+

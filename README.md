@@ -1,14 +1,18 @@
 # Classification_project_IVF
 
 Predicting the chance of live birth for women undergoing IVF.
+
 In Vitro Fertilization is an assisted reproductive technology commonly referred to as IVF. 
-IVF is the process of fertilization by extracting eggs, retrieving a sperm sample, and then manually combining an egg and sperm in a laboratory dish. 
+
+ > IVF is the process of fertilization by extracting eggs, retrieving a sperm sample, and then manually combining an egg and sperm in a laboratory dish. 
 1% of births per year in the UK are a result of IVF treatment. The global IVF market size was valued at USD 14.2 billion in 2020 and is expected to grow at a compound annual growth rate (CAGR) of 6.5% from 2021 to 2028. 
+
+![Alt text](https://th.bing.com/th/id/R.41a2b51ae071bbc6f8d44c210dd462b0?rik=DAX1H9DvOf0HfA&pid=ImgRaw&r=0)
 
 ### Goal of the Project
 The goal of this project is to create a classification model which can predict a successful live birth as a result of one or more IVF cycles. 
 
-Hypothesis: Patient’s medical history has a direct impact on the outcome of the IVF cycle.
+__Hypothesis:__ Patient’s medical history has a direct impact on the outcome of the IVF cycle.
 
 ### Data Source & Overview
 The Human Fertilisation and Embryology Authority collects data and statistics about over 70,000 fertility treatments performed each year in the UK. 

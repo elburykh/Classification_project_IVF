@@ -97,9 +97,9 @@ Limited computing resources: the necessary time for running the algorithm gets h
 
 ## Recommendations
 
-Collecting and incorporating data on lifestyle (smoking/weight, etc.) and additional medical data.
-Environmental factors: how would location data influence the modelling?
-For individual clinics: collect data laboratory standards, air quality in the laboratory, and the experience of embryologists.
+1. Collecting and incorporating data on lifestyle (smoking/weight, etc.) and additional medical data.
+2. Environmental factors: how would location data influence the modelling?
+3. For individual clinics: collect data laboratory standards, air quality in the laboratory, and the experience of embryologists.
 
 ## Next steps
 I would like to attempt using the full dataset for modelling.

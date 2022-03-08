@@ -10,15 +10,15 @@ In Vitro Fertilization is an assisted reproductive technology commonly referred 
 ![1](https://user-images.githubusercontent.com/100076753/156035343-5b80a8e3-e3c0-4be5-b8b1-75ede8cb6c14.jpg)
 
 
-## Goal of the Project
+## The Goal of the Project
 The goal of this project is to create a classification model which can predict a successful live birth as a result of one or more IVF cycles. 
 
-__Hypothesis:__ Patient’s medical history has a direct impact on the outcome of the IVF cycle.
+__Hypothesis:__ The patient’s medical history has a direct impact on the outcome of the IVF cycle.
 
 ## Data Source & Overview
 The Human Fertilisation and Embryology Authority collects data and statistics about over 70,000 fertility treatments performed each year in the UK. 
 By law, clinics have a duty to submit data on fertility treatments taking place and babies born as a result. To allow researchers to make good use of the data, an anonymised version of the Register is published.
-Data used for this project is the latest available, it contains treatments from 2017  - 2018.
+Data used for this project is the latest available, it contains treatments from 2017 to 2018.
 
 The original data can be accessed here: https://www.hfea.gov.uk/about-us/our-data/guide-to-the-anonymised-register/ .
 
